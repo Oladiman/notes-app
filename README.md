@@ -1,16 +1,16 @@
 # notes-app
+<h3>Command line notes application written in nodejs.</h3>
+
 <p>It has four commands namely; <b>add, remove, list and read</b></p>
 <p>On cloning this repo, run the command below: <code>npm install</code><p>
 <h3>Add Command</h3>
 <p>The add command requires the command line arguments; title and body.</p>
 <h4>Example:</h4>
 <p><code>node app.js add --title="some title" --body="some content"</code></p>
-<img src="./images/add-command.png" alt="add-command" />
 <h3>Remove Command</h3>
 <p>The remove command requires just one command line argument; title.</p>
 <h4>Example:</h4>
-<p><code>node app.js remove --title="some title"</code></p>\
-<img src="./images/remove-command.png" alt="remove-command" />
+<p><code>node app.js remove --title="some title"</code></p>
 <h3>List Command</h3>
 <p>The List command requires doesn't accept any command line argument</p>
 <h4>Example:</h4>
